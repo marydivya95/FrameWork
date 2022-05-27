@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T19:31:45 AEST" name="Surefire suite" finished-at="2022-05-25T19:32:02 AEST" duration-ms="16730">
+  <suite started-at="2022-05-28T09:31:34 AEST" name="Surefire suite" finished-at="2022-05-28T09:31:46 AEST" duration-ms="12410">
     <groups>
     </groups>
-    <test started-at="2022-05-25T19:31:45 AEST" name="Surefire test" finished-at="2022-05-25T19:32:02 AEST" duration-ms="16730">
+    <test started-at="2022-05-28T09:31:34 AEST" name="Surefire test" finished-at="2022-05-28T09:31:46 AEST" duration-ms="12410">
       <class name="POMTests.TC01_GooglePagrTest">
-        <test-method is-config="true" signature="startingBrowser()[pri:0, instance:POMTests.TC01_GooglePagrTest@20d28811]" started-at="2022-05-25T19:31:45 AEST" name="startingBrowser" finished-at="2022-05-25T19:31:53 AEST" duration-ms="8095" status="PASS">
+        <test-method is-config="true" signature="startingBrowser()[pri:0, instance:POMTests.TC01_GooglePagrTest@3d6f0054]" started-at="2022-05-28T09:31:34 AEST" name="startingBrowser" finished-at="2022-05-28T09:31:43 AEST" duration-ms="8845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingBrowser -->
-        <test-method signature="Googlepage()[pri:0, instance:POMTests.TC01_GooglePagrTest@20d28811]" started-at="2022-05-25T19:31:54 AEST" name="Googlepage" finished-at="2022-05-25T19:32:01 AEST" duration-ms="7819" status="PASS">
+        <test-method signature="Googlepage()[pri:0, instance:POMTests.TC01_GooglePagrTest@3d6f0054]" started-at="2022-05-28T09:31:43 AEST" name="Googlepage" finished-at="2022-05-28T09:31:45 AEST" duration-ms="2611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Googlepage -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:POMTests.TC01_GooglePagrTest@20d28811]" started-at="2022-05-25T19:32:01 AEST" name="Teardown" finished-at="2022-05-25T19:32:02 AEST" duration-ms="743" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:POMTests.TC01_GooglePagrTest@3d6f0054]" started-at="2022-05-28T09:31:45 AEST" name="Teardown" finished-at="2022-05-28T09:31:46 AEST" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

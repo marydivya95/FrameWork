@@ -3,6 +3,37 @@
 Scenario: Navigate to create Account Screen                                        [90m# src/Test/java/Features/FF02_NavigateToCreateAccounScreen.feature:3[0m
   [32mGiven [0m[32mOpen Browser[0m                                                               [90m# StepDefination.SD01_NavigateTOGoodGuys.open_browser()[0m
   [32mAnd [0m[32mEnter url and press <Enter> to Navigate to Home page of GGWebsite[0m            [90m# StepDefination.SD01_NavigateTOGoodGuys.enter_url_and_press_enter_to_navigate_to_home_page_of_gg_website()[0m
-  [32mAnd [0m[32mclick on UserAccountIcon and navigate to Sign In or Create an Account screen[0m [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_user_account_icon_and_navigate_to_sign_in_or_create_an_account_screen()[0m
-  [32mThen [0m[32mClick on Create Account Button[0m                                              [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_create_account_button()[0m
-  [32mAnd [0m[32mAssert on Create an Account screen[0m                                           [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.assert_on_create_an_account_screen()[0m
+  [31mAnd [0m[31mclick on UserAccountIcon and navigate to Sign In or Create an Account screen[0m [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_user_account_icon_and_navigate_to_sign_in_or_create_an_account_screen()[0m
+      [31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='nav-supplementary-icon ggdsicon-user-slim-o']"}
+  (Session info: chrome=102.0.5005.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DIVYAAJAY', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a272c05b19b034cc6095c5048edb6f9, findElement {using=xpath, value=//i[@class='nav-supplementary-icon ggdsicon-user-slim-o']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\divya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64892/devtoo..., se:cdpVersion: 102.0.5005.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a272c05b19b034cc6095c5048edb6f9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at Pages.HomePage.HomePage.UserAccountIcon(HomePage.java:25)
+	at StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_user_account_icon_and_navigate_to_sign_in_or_create_an_account_screen(SD02_NavigateToCreateAcoountScreen.java:18)
+	at ✽.click on UserAccountIcon and navigate to Sign In or Create an Account screen(file:///C:/Users/divya/IdeaProjects/Framework/src/Test/java/Features/FF02_NavigateToCreateAccounScreen.feature:6)
+[0m
+  [36mThen [0m[36mClick on Create Account Button[0m                                              [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_create_account_button()[0m
+  [36mAnd [0m[36mAssert on Create an Account screen[0m                                           [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.assert_on_create_an_account_screen()[0m

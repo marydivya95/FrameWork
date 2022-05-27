@@ -1,6 +1,6 @@
 BaseClass\BrowserAction.class
+PropertiesFile\ReadPropertiesFile.class
 Pages\LoginPage.class
-Properties\ReadPropertiesFile.class
 Utilities\Xls_Reader.class
 Pages\HomePage\HomePage.class
 Pages\SignInOrCreateanAccountPage\SignInPage.class

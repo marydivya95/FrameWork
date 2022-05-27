@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-05-26T00:10:57.411Z",
+        "start_timestamp": "2022-05-27T23:31:48.321Z",
         "line": 3,
         "name": "Navigate to create Account Screen",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4379297100,
+              "duration": 1470987400,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 11928827300,
+              "duration": 5018442200,
               "status": "passed"
             },
             "line": 5,
@@ -37,8 +37,9 @@
           },
           {
             "result": {
-              "duration": 320025200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//i[@class\u003d\u0027nav-supplementary-icon ggdsicon-user-slim-o\u0027]\"}\n  (Session info: chrome\u003d102.0.5005.61)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027DIVYAAJAY\u0027, ip: \u0027192.168.99.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.14\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7a272c05b19b034cc6095c5048edb6f9, findElement {using\u003dxpath, value\u003d//i[@class\u003d\u0027nav-supplementary-icon ggdsicon-user-slim-o\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\divya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64892/devtoo..., se:cdpVersion: 102.0.5005.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7a272c05b19b034cc6095c5048edb6f9\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat Pages.HomePage.HomePage.UserAccountIcon(HomePage.java:25)\r\n\tat StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_user_account_icon_and_navigate_to_sign_in_or_create_an_account_screen(SD02_NavigateToCreateAcoountScreen.java:18)\r\n\tat ✽.click on UserAccountIcon and navigate to Sign In or Create an Account screen(file:///C:/Users/divya/IdeaProjects/Framework/src/Test/java/Features/FF02_NavigateToCreateAccounScreen.feature:6)\r\n",
+              "duration": 178009000,
+              "status": "failed"
             },
             "line": 6,
             "name": "click on UserAccountIcon and navigate to Sign In or Create an Account screen",
@@ -49,8 +50,7 @@
           },
           {
             "result": {
-              "duration": 5836164900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "Click on Create Account Button",
@@ -61,8 +61,7 @@
           },
           {
             "result": {
-              "duration": 59998100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "Assert on Create an Account screen",
