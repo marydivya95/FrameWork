@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-26T00:10:57.411Z",
+        "line": 3,
+        "name": "Navigate to create Account Screen",
+        "description": "",
+        "id": "createacccount-page;navigate-to-create-account-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4379297100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser",
+            "match": {
+              "location": "StepDefination.SD01_NavigateTOGoodGuys.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11928827300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter url and press \u003cEnter\u003e to Navigate to Home page of GGWebsite",
+            "match": {
+              "location": "StepDefination.SD01_NavigateTOGoodGuys.enter_url_and_press_enter_to_navigate_to_home_page_of_gg_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320025200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on UserAccountIcon and navigate to Sign In or Create an Account screen",
+            "match": {
+              "location": "StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_user_account_icon_and_navigate_to_sign_in_or_create_an_account_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5836164900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Create Account Button",
+            "match": {
+              "location": "StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_create_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59998100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Assert on Create an Account screen",
+            "match": {
+              "location": "StepDefination.SD02_NavigateToCreateAcoountScreen.assert_on_create_an_account_screen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "CreateAcccount page",
+    "description": "",
+    "id": "createacccount-page",
+    "keyword": "Feature",
+    "uri": "file:src/Test/java/Features/FF02_NavigateToCreateAccounScreen.feature",
+    "tags": []
+  }
+]

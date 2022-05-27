@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.945">
+    <testcase classname="CreateAcccount page" name="Navigate to create Account Screen" time="22.667">
+        <system-out>
+            <![CDATA[Given Open Browser..........................................................passed
+And Enter url and press <Enter> to Navigate to Home page of GGWebsite.......passed
+And click on UserAccountIcon and navigate to Sign In or Create an Account screen.passed
+Then Click on Create Account Button.........................................passed
+And Assert on Create an Account screen......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

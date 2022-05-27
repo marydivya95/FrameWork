@@ -1,0 +1,8 @@
+
+@RegressionTest
+Scenario: Navigate to create Account Screen                                        [90m# src/Test/java/Features/FF02_NavigateToCreateAccounScreen.feature:3[0m
+  [32mGiven [0m[32mOpen Browser[0m                                                               [90m# StepDefination.SD01_NavigateTOGoodGuys.open_browser()[0m
+  [32mAnd [0m[32mEnter url and press <Enter> to Navigate to Home page of GGWebsite[0m            [90m# StepDefination.SD01_NavigateTOGoodGuys.enter_url_and_press_enter_to_navigate_to_home_page_of_gg_website()[0m
+  [32mAnd [0m[32mclick on UserAccountIcon and navigate to Sign In or Create an Account screen[0m [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_user_account_icon_and_navigate_to_sign_in_or_create_an_account_screen()[0m
+  [32mThen [0m[32mClick on Create Account Button[0m                                              [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.click_on_create_account_button()[0m
+  [32mAnd [0m[32mAssert on Create an Account screen[0m                                           [90m# StepDefination.SD02_NavigateToCreateAcoountScreen.assert_on_create_an_account_screen()[0m
