@@ -1,5 +1,4 @@
 StepDefination\SD01_NavigateTOGoodGuys.class
-POMTests\TC01_GooglePagrTest.class
 StepDefination\SD02_NavigateToCreateAcoountScreen.class
 POMTests\TC01_NavigatetoGGHomePage.class
 runner\TestRunner.class
